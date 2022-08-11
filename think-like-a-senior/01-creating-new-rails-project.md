@@ -2,10 +2,13 @@
 
 Postgres
 Is it battle tested?
-
 - Yes, Postgres has been around since 1986. Postgres has also continually had updates to keep it modern and is still maintained.
+
+
   What is the cost?
 - In terms of dollars Postgres is open source. In terms of time and effort it takes no more time to set up than a competitor would.
+
+
   What is the hiring pool like?
 - Really good as it seems to be the main database used in web development.
   How much initial and ongoing training will it require?
