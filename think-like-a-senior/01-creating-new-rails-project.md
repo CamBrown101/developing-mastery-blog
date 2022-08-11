@@ -32,15 +32,15 @@ Is it battle tested?
   How much initial and ongoing training will it require?
 - There are some great materials out there to learn Rspec such as Everyday Rails Testing with RSpec. I found is quite easy to pick up the basics.
   What will the training cost in both time and money?
-  - There will be a time cost. I would say you could pick Rspec up in a week and have a pretty good understanding of what is going on. I think there are quite a bit of free material out there to learn but I would say no more cost then a book or 2.
-    How is it maintained?
-  - Rspec is open sourced and the lead maintainer is Jon Rowe.
-    How does it scale?
-  - A down side to Rspec is it is known to be slower then mini test to run. I could see this becoming an issue when scaling a larger app and the amount of tests gets large. I think when this becomes an issue there are other solutions you could look at such as multiple test runners running in parallel.
-  - How is it supported?
-    Rspec seems to be supported well and have a large community behind it.
-  - What are the alternatives?
-    The main aleternative would be mini test as it is built into rails. Mini test is known to be quicker, but harder to write tests with.
+- There will be a time cost. I would say you could pick Rspec up in a week and have a pretty good understanding of what is going on. I think there are quite a bit of free material out there to learn but I would say no more cost then a book or 2.
+  How is it maintained?
+- Rspec is open sourced and the lead maintainer is Jon Rowe.
+  How does it scale?
+- A down side to Rspec is it is known to be slower then mini test to run. I could see this becoming an issue when scaling a larger app and the amount of tests gets large. I think when this becomes an issue there are other solutions you could look at such as multiple test runners running in parallel.
+- How is it supported?
+  Rspec seems to be supported well and have a large community behind it.
+- What are the alternatives?
+  The main aleternative would be mini test as it is built into rails. Mini test is known to be quicker, but harder to write tests with.
 
 ##### _References_
 
