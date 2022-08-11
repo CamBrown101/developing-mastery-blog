@@ -8,20 +8,25 @@ Is it battle tested?
 What is the cost?
 - In terms of dollars Postgres is open source. In terms of time and effort it takes no more time to set up than a competitor would.
 
-
-  What is the hiring pool like?
+What is the hiring pool like?
 - Really good as it seems to be the main database used in web development.
-  How much initial and ongoing training will it require?
+
+How much initial and ongoing training will it require?
 - Initial training would be none if your team is already using SQL. I know there are a couple things Postgres handles differently but none of them big enough you would need to retrain. I could see some ongoing training if a new version came out and with some big changes.
-  What will the training cost in both time and money?
+
+What will the training cost in both time and money?
 - Both would be minimal as I don't think there is much if any required.
-  How is it maintained?
+
+How is it maintained?
 - Postgres is owned and maintained by it's community.
-  How does it scale?
+
+How does it scale?
 - Postgres scales well and is used by large apps. There are some tools like vacuuming to help reduce bloat.
-  How is it supported?
+
+How is it supported?
 - Postgres is well supported and being open source and popular there is a large community behind it.
-  What are the alternatives?
+
+What are the alternatives?
 - alternatives would be MySQL or a non relational database like MongoDB. The benifit to Postgres is it is the default for heroku and will fit our plans to deploy this app.
 
 Rspec
