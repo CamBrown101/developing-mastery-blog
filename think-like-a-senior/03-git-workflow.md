@@ -1,5 +1,5 @@
-## Start thinking like a senior
-
+**## Start thinking like a senior
+**
 What are the pros and cons of fetch & rebase vs pulling?
 
 - The pros are that rebasing pulls all of your commits on a feature branch to the tip of the current git history. The cons are if you do this on public branches you are rewriting the git history so if someone else is using that branch it will create conflicts.
