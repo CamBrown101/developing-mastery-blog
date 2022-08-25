@@ -1,0 +1,18 @@
+checkout code
+install ruby
+bundle install
+install npm
+set up a database
+run tests
+send coverage reports
+
+name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
