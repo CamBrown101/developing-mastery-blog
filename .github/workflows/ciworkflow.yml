@@ -13,25 +13,25 @@ jobs:
         --health-interval 10s
         --health-timeout 5s
         --health-retries 5
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "14"
-      - uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-      - name: create test database
-        env:
-          RAILS_ENV: test
-          PGHOST: localhost
-          PGUSER: postgres
-          PGPASSWORD: postgres
-        run: bin/rails db:test:prepare
-      - name: run tests
-        env:
-          RAILS_ENV: test
-          PGHOST: localhost
-          PGUSER: postgres
-          PGPASSWORD: postgres
-        run: bin/rails spec
+  steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: "14"
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    - name: create test database
+      env:
+        RAILS_ENV: test
+        PGHOST: localhost
+        PGUSER: postgres
+        PGPASSWORD: postgres
+      run: bin/rails db:test:prepare
+    - name: run tests
+      env:
+        RAILS_ENV: test
+        PGHOST: localhost
+        PGUSER: postgres
+        PGPASSWORD: postgres
+      run: bin/rails spec
