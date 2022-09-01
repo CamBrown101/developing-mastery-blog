@@ -1,12 +1,8 @@
 # README
 
-<<<<<<< HEAD
 ![CI Actions](https://github.com/cambrown101/developing-mastery-blog/actions/workflows/ciworkflow.yml/badge.svg)
 ![example workflow](https://github.com/cambrown101/developing-mastery-blog/actions/workflows/ciworkflow.yml/badge.svg)
 
-=======
-![example workflow](https://github.com/cambrown101/developing-mastery-blog/actions/workflows/ciworkflow.yml/badge.svg)
->>>>>>> 6f6a1bd (Add status badge)
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
