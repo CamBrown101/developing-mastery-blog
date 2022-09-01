@@ -38,7 +38,7 @@ jobs:
           PGPASSWORD: postgres
         run: bin/rails spec
       - name: send coverage report to codecov
-        uses: codecov/codecov-action
+        uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           directory: ./coverage/lcov/
