@@ -1,4 +1,5 @@
 name: CI Actions
+<<<<<<< HEAD
 on: [push]
 jobs:
   ci-workflow:
@@ -24,6 +25,8 @@ run tests
 send coverage reports
 
 name: learn-github-actions
+=======
+>>>>>>> 8f6ee12 (Change name of ci)
 on: [push]
 jobs:
   ci-workflow:
