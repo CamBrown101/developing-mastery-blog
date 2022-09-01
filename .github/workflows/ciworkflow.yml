@@ -39,3 +39,7 @@ jobs:
         run: bin/rails spec
       - name: send coverage report to codecov
         uses: codecov/codecov-action
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./coverage/lcov/
+          verbose: true
