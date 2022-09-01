@@ -37,3 +37,5 @@ jobs:
           PGUSER: postgres
           PGPASSWORD: postgres
         run: bin/rails spec
+      - name: send coverage report to codecov
+        uses: codecov/codecov-action
