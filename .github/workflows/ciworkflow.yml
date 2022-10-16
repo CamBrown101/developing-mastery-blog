@@ -37,4 +37,3 @@ jobs:
           PGUSER: postgres
           PGPASSWORD: postgres
         run: bin/rails spec
-          node-version: '14'
