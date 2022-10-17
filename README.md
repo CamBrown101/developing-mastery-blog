@@ -1,7 +1,6 @@
 # README
 
 ![CI Actions](https://github.com/cambrown101/developing-mastery-blog/actions/workflows/ciworkflow.yml/badge.svg)
-![example workflow](https://github.com/cambrown101/developing-mastery-blog/actions/workflows/ciworkflow.yml/badge.svg)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
